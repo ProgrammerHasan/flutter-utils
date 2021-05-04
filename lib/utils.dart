@@ -97,7 +97,7 @@ String bnNumToEn(int number) {
 }
 
 // arabic number to english
-String arNumToEn (int number) {
+String arNumToEn(int number) {
   return number.toString()
       .replaceAll('0', '۰')
       .replaceAll('1', '۱')
