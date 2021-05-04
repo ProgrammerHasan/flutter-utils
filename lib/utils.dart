@@ -80,6 +80,37 @@ String enNumToAr(int number) {
       .replaceAll('9', '۹');
 }
 
+
+// bangle number to english
+String bnNumToEn(int number) {
+  return number.toString()
+      .replaceAll('০', '0')
+      .replaceAll('১', '1')
+      .replaceAll('২', '2')
+      .replaceAll('৩', '3')
+      .replaceAll('৪', '4')
+      .replaceAll('৫', '5')
+      .replaceAll('৬', '6')
+      .replaceAll('৭', '7')
+      .replaceAll('৮', '8')
+      .replaceAll('৯', '9');
+}
+
+// arabic number to english
+String arNumToEn(int number) {
+  return number.toString()
+      .replaceAll('0', '۰')
+      .replaceAll('1', '۱')
+      .replaceAll('2', '۲')
+      .replaceAll('3', '۳')
+      .replaceAll('4', '۴')
+      .replaceAll('5', '۵')
+      .replaceAll('6', '۶')
+      .replaceAll('7', '۷')
+      .replaceAll('8', '۸')
+      .replaceAll('9', '۹');
+}
+
 // Check internet connection
 var checkInternetStatus;
 checkInternetConnect() async {
